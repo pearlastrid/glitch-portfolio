@@ -51,6 +51,7 @@ body {
 .title {
     text-align: center;
     width: 90%;
+    margin-left: 5%;
 }
 
 .title h1{
