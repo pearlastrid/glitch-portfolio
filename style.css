@@ -50,8 +50,8 @@ body {
 
 .title {
     text-align: center;
-    width: 90%;
-    margin-left: 0%;
+    padding-left: 5%;
+    paddiong-right: 5%;
 }
 
 .title h1{
