@@ -1,0 +1,171 @@
+<html>
+   <head>
+    <title>Pearl Lin's Glitch Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pearl Lin">
+    <meta charset="utf-8">
+   </head> 
+   <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <p>
+        <span style="font-size: 25px; cursor:pointer" class="navigationIcon">&#9776;</span>
+    </p>
+    <div class="navigation">
+        <a class="close">&times;</a>
+        <br><br>
+        <a href="index.html">Portfolio</a>
+        <br><br>
+        <a href="aboutme.html">About Me</a>
+    </div>
+    <br>
+    <div class="title">
+        <h1 class="title">Glitch Portfolio</h1>
+    </div>
+
+    <div class="introduction">
+        <p>
+            Below are some of my web application projects coded on <a class="link" href="https://glitch.com" target="_blank">Glitch.com</a>. 
+            These may take a few seconds to load. Source code is viewable for each project by clicking "View Source". 
+        </p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="shopfinder app left">
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+                <iframe
+                src="https://glitch.com/embed/#!/embed/etsyshopfinder?path=views/index.html&previewSize=100"
+                title="etsyshopfinder on Glitch"
+                allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+                allowFullScreen
+                style="height: 100%; width: 100%; border: 0;">
+                </iframe>
+            </div>
+
+            <div class="description">
+                <p>
+                    A tool for Etsy buyers that allows them to filter and sort through potential shops via keywords, number of favorites, location, price range, and more! 
+                    I used the Etsy API Version 2 to find shops by their most recent listings.
+                </p>
+            </div>
+        </div>
+    
+        
+    
+        <div class="shippingapp app right">
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+                <iframe
+                src="https://glitch.com/embed/#!/embed/uspsshippingapp?path=README.md&previewSize=100"
+                title="uspsshippingapp on Glitch"
+                allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+                allowFullScreen
+                style="height: 100%; width: 100%; border: 0;">
+                </iframe>
+             </div>
+
+             <div class="description">
+                <p>
+                    USPS Shipping Application for domestic and international packages: verifies addresses, 
+                    shows them on a map, and fetches shipping rates from EasyPost api, updated with the latest prices
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="GWCsite app left">
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+                <iframe
+                src="https://glitch.com/embed/#!/embed/girls-who-code-ihs?path=index.html&previewSize=100"
+                title="girls-who-code-ihs on Glitch"
+                allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+                allowFullScreen
+                style="height: 100%; width: 100%; border: 0;">
+                </iframe>
+            </div>
+
+            <div class="description">
+                <p>
+                    Website we created when I was website development lead at Girls Who Code. This is our 
+                    club's first website built on raw code!
+                </p>
+            </div>
+        </div>
+    
+        <div class="profitcalculator app right">
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+                <iframe
+                src="https://glitch.com/embed/#!/embed/etsyprofitcalculator?path=style.css&previewSize=100"
+                title="etsyprofitcalculator on Glitch"
+                allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+                allowFullScreen
+                style="height: 100%; width: 100%; border: 0;">
+                </iframe>
+            </div>
+
+            <div class="description">
+                <p>
+                    Calculates gross profit, total expenses, and profit margin of an Etsy sale
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="presidentfacts app left">
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+                <iframe
+                src="https://glitch.com/embed/#!/embed/presidentfunfacts?path=README.md&previewSize=100"
+                title="presidentfunfacts on Glitch"
+                allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+                allowFullScreen
+                style="height: 100%; width: 100%; border: 0;">
+                </iframe>
+             </div>
+
+             <div class="description">
+                <p>
+                    Some fun facts I found about every president! Featuring integrated Swiper JS for a smooth card slideshow effect
+                </p>
+            </div>
+        </div>
+    
+        <div class="pricingtool app right">
+            <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+                <iframe
+                src="https://glitch.com/embed/#!/embed/etsypricingtool?path=style.css&previewSize=100"
+                title="etsypricingtool on Glitch"
+                allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+                allowFullScreen
+                style="height: 100%; width: 100%; border: 0;">
+                </iframe>
+             </div>
+
+             <div class="description">
+                <p>
+                    Pricing tool for Etsy products made with CSS, HTML, and JavaScript
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            $(".navigationIcon").click(function() {
+            $(".navigation").css("left", "0");
+            });
+            
+            $(".close").click(function() {
+            $(".navigation").css("left", "-200px");
+            });
+        });
+    </script>
+   </body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>About Me</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Pearl Lin">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <p>
+        <span style="font-size: 25px; cursor:pointer" class="navigationIcon">&#9776;</span>
+    </p>
+    <div class="navigation">
+        <a class="close">&times;</a>
+        <br><br>
+        <a href="index.html">Portfolio</a>
+        <br><br>
+        <a href="aboutme.html">About Me</a>
+    </div>
+    <br>
+    <div class="title">
+        <h1 class="title">About Me</h1>
+    </div>
+
+    <br>
+
+    <div class="image">
+        <img src="Pearl.png" alt="Pearl's profile picture">
+    </div>
+
+    <br>
+    <br>
+
+    <div class="introduction">
+        <p>
+            Hello! <br><br> My name is Pearl Lin, and I'm a senior at Issaquah High School. I'm an aspiring computer science major 
+            and the president of my school's chapter of Girls Who Code. In my free time, I like to design crochet patterns, code fun projects, and 
+            jam out to obscure Broadway musicals. 
+        </p>
+    </div>
+
+    <br>
+    <br>
+
+    
+    <script>
+        $(document).ready(function() {
+            $(".navigationIcon").click(function() {
+            $(".navigation").css("left", "0");
+            });
+            
+            $(".close").click(function() {
+            $(".navigation").css("left", "-200px");
+            });
+        });
+    </script>
+    </body>
+</html>

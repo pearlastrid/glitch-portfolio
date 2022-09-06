@@ -1,0 +1,121 @@
+body {
+    background-image: url('background.jpg');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #3d3a38;
+    font-size: 2vh;
+}
+
+.navigation {
+    top: 0;
+    left: -200px;
+    position: fixed;
+    z-index: 300 !important;
+    height: 100%;
+    background-color:whitesmoke;
+    width: 200px;
+    overflow-x: hidden;
+    text-align: left;
+    transition: 0.4s;
+    
+}
+
+.navigation .close{
+    padding-left: 170px;
+    font-size: 30px;
+    transition: ease-in-out 0.2s;
+}
+
+.navigation .close:hover {
+    color:#928a86;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #3d3a38;
+    transition: ease-in-out 0.2s;
+    padding-left: 15px;
+}
+
+.navigation a:hover {
+    color:#928a86;
+}
+
+.navigationIcon {
+    float: left;
+    margin-left: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1{
+    font-size: 5em;
+}
+
+.introduction {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.introduction p {
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
+
+.app {
+    width: 42%;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.left {
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.right {
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 20em;
+}
+
+.link {
+    color: #aaa9a7;
+}
+
+.description {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+@media only screen and (max-width: 760px) {
+    .app {
+        width: 70%;
+        margin: auto;
+    }
+
+    .left, .right {
+        margin-bottom: 5em;
+    }
+
+    .row {
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
