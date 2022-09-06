@@ -105,7 +105,7 @@ body {
 
 @media only screen and (max-width: 760px) {
     .app {
-        width: 70%;
+        width: 90%;
         margin: auto;
     }
 
@@ -116,6 +116,10 @@ body {
     .row {
         display: block;
         margin-bottom: 0;
+    }
+    
+    .introduction {
+        width: 90%;
     }
 }
 
